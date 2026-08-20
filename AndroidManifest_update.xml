@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+新增以下權限到 AndroidManifest.xml 中的 <manifest> 標籤內
+-->
+<uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
