@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="音效設置"
+        android:key="sound_category">
+
+        <SwitchPreferenceCompat
+            android:key="keyboard_sound_enabled"
+            android:title="鍵盤音效"
+            android:summary="按下按鍵時播放音效"
+            android:defaultValue="true" />
+
+        <Preference
+            android:key="sound_test"
+            android:title="測試音效"
+            android:summary="點擊以測試鍵盤音效" />
+
+    </PreferenceCategory>
+</PreferenceScreen>

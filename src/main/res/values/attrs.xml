@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 鍵盤音效相關屬性 -->
+    <attr name="keyboardSoundEnabled" format="boolean" />
+</resources>
